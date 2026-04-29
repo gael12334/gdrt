@@ -19,3 +19,6 @@ For a REPORT (a path to a file), save file contents to OUTPUT (a path to a file)
 To display the help menu, simply run the program without parameters.
 
 `gdrt`
+
+# Disclaimer
+This is intended for my own personal use. The source code is intended to be part of my portofolio. If you desire to use this tool, be aware that only a minimal amount of tests have been performed. If a malfunction alters, corrupts or destroys data, the liability is on the person that downloaded and ran my program. 
