@@ -2,7 +2,7 @@
 Generic Data Recovery Tool - A simple tool to recover deleted files. Made to work on linux-based systems (including android, but requires root). This tool has 2 functionnality: Finder and Extractor.
 
 ## Finder
-Tries to find MARKER (in hex, no spaces) first, then TRAILER (in hex, no spaces) if found, from INPUT (a path to a file), starting at OFFSET (integer) for LENGTH (integer) bytes, and saves results in OUTPUT (a path to a file). _Note: the OUTPUT file only contains references and not actual file contents._
+Tries to find MARKER (in hex, no spaces) first, then TRAILER (in hex, no spaces) if found, from INPUT (a path to a file), starting at OFFSET (integer) for LENGTH (integer) bytes, and saves results in OUTPUT (a path to a file). _Note: the OUTPUT file only contains references and not actual file contents. The OUTPUT file is the report used by the Extractor._
 
 `gdrt -f INPUT OUTPUT MARKER TRAILER OFFSET LENGTH`
 
