@@ -6,7 +6,7 @@ Tries to find MARKER (in hex, no spaces) first, then TRAILER (in hex, no spaces)
 
 `gdrt -f INPUT OUTPUT MARKER TRAILER OFFSET LENGTH`
 
-Shortcuts are available to launch Finder. There are 4 <ins>OPTION</ins>s: `-ij` = jpeg, `-ip` = png, `-vm` = mp3, `-pd` = pdf. 
+Shortcuts are available to launch Finder. There are 4 <ins>OPTION</ins>s: `-ij` = jpeg, `-ip` = png, `-vm` = mp3, `-dp` = pdf. 
 
 `gdrt OPTION INPUT OUTPUT OFFSET LENGTH`
 
@@ -15,3 +15,7 @@ For a REPORT (a path to a file), save file contents to OUTPUT (a path to a file)
 
 `gdrt -e REPORT OUTPUT INDEX`
 
+## Help menu
+To display the help menu, simply run the program without parameters.
+
+`gdrt`
